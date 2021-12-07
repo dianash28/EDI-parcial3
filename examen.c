@@ -73,7 +73,12 @@ int main()
         deportistas->numMedallas=(6/ deportistas->numMedallas);
         fprintf(deport,"%d",deportistas->numMedallas );
     }
+    cerrado=fclose(deport);
 
+    if (cerrado==EOF)
+    {
+        printf("el archivo no cerro con exito");
+    }
 
     fflush(stdin);
     getchar();
