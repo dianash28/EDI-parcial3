@@ -44,6 +44,8 @@ int main()
     // Puede cambiar la declaración de este arreglo a donde lo considere necesario
     char deporte[6][30] = {"Natación", "Atletismo", "Ciclismo", "Gimnasia", "Equitacion", "Esgrima"};
 
+    fflush(stdin);
+    getchar();
     return 0;
 }
 
